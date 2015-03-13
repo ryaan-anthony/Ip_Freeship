@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+
+    <modules>
+        <Ip_Freeship>
+            <version>0.1.0</version>
+        </Ip_Freeship>
+    </modules>
+
+    <global>
+
+        <models>
+            <shipping>
+                <rewrite>
+                    <carrier_freeshipping>Ip_Freeship_Model_Carrier_Admin</carrier_freeshipping>
+                </rewrite>
+            </shipping>
+        </models>
+
+    </global>
+
+</config>
